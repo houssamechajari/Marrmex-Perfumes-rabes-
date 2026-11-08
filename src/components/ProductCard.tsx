@@ -87,11 +87,14 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onOpenDetails
           <div className="flex items-baseline justify-between mb-3.5 pt-2 border-t border-[#1a251e]">
             <div className="flex flex-col">
               <span className="text-[10px] text-gray-400 uppercase tracking-wider">Precio</span>
-              <div className="flex items-baseline gap-1">
+              <div className="flex items-baseline gap-1.5 flex-wrap">
                 <span className="font-display font-extrabold text-xl text-[#f5e7b8]">
                   ${product.price}
                 </span>
                 <span className="text-xs font-semibold text-gray-300">MXN</span>
+                <span className="text-xs text-gray-400 line-through decoration-red-400/80 font-medium ml-1" title="Precio anterior: $249 MXN">
+                  $249
+                </span>
               </div>
             </div>
             <span className="text-[11px] text-emerald-400 font-semibold flex items-center gap-1">

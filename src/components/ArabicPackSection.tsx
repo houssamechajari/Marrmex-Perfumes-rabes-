@@ -470,7 +470,7 @@ export const ArabicPackSection: React.FC = () => {
           </div>
 
           <p className="text-xs text-gray-400 mt-3">
-            ¿Deseas combinar con otros perfumes? Agrega el pack al carrito y suma más piezas individuales a solo $199 MXN c/u.
+            ¿Deseas combinar con otros perfumes? Agrega el pack al carrito y suma más piezas individuales a solo $199 MXN c/u <span className="line-through decoration-red-400/80">(Antes $249 MXN)</span>.
           </p>
         </div>
       </div>

@@ -493,7 +493,8 @@ export const BUSINESS_CONFIG = {
   address: 'Centro, Huajuapan de León, Oaxaca, México',
   facebookUrl: 'https://www.facebook.com/share/1Fb4fnU4BE/',
   freeShippingThreshold: 1500,
-  singlePrice: 199
+  singlePrice: 199,
+  singleOriginalPrice: 249
 };
 
 export const ARABIC_PACK_CONFIG = {

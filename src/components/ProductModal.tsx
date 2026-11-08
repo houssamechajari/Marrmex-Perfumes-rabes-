@@ -80,11 +80,19 @@ export const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) 
               </div>
 
               {/* Mandatory Display of Price */}
-              <div className="flex items-baseline gap-2 pb-4 mb-4 border-b border-[#1b261e]">
+              <div className="flex items-baseline gap-2.5 pb-4 mb-4 border-b border-[#1b261e] flex-wrap">
                 <span className="font-display font-extrabold text-3xl sm:text-4xl text-[#fceda7]">
                   ${product.price}
                 </span>
-                <span className="text-sm font-semibold text-gray-400">MXN</span>
+                <span className="text-sm font-semibold text-gray-300">MXN</span>
+                <div className="flex items-center gap-1.5 ml-1">
+                  <span className="text-sm sm:text-base text-gray-400 line-through decoration-red-400/80 font-medium" title="Precio anterior">
+                    $249 MXN
+                  </span>
+                  <span className="text-[11px] font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded-md">
+                    Ahorras $50 MXN
+                  </span>
+                </div>
                 <span className="ml-auto text-xs px-2.5 py-1 rounded-full bg-[#064e3b]/40 text-emerald-300 border border-emerald-500/40 font-bold">
                   En existencia
                 </span>

@@ -142,10 +142,15 @@ export const CartDrawer: React.FC = () => {
                   <h4 className="font-display font-bold text-xs sm:text-sm text-white truncate">
                     {item.product.name}
                   </h4>
-                  <div className="flex items-center gap-2 mt-1">
+                  <div className="flex items-center gap-1.5 mt-1 flex-wrap">
                     <span className="text-xs font-bold text-[#fceda7]">
                       ${item.product.price} MXN
                     </span>
+                    {!item.product.isPack && (
+                      <span className="text-[10px] text-gray-500 line-through decoration-red-400/80" title="Precio anterior: $249 MXN">
+                        $249
+                      </span>
+                    )}
                     <span className="text-[10px] text-gray-400">c/u</span>
                   </div>
                 </div>

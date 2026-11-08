@@ -93,7 +93,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
             Catálogo de Perfumes Árabes (6 ml)
           </h2>
           <p className="text-sm sm:text-base text-[#cbd5e1] leading-relaxed">
-            Explora nuestros aceites de perfume concentrados originales. Todos con presentación práctica de <strong className="text-white">6 ml</strong> a precio uniforme de <strong className="text-emerald-400">$199 MXN</strong>.
+            Explora nuestros aceites de perfume concentrados originales. Todos con presentación práctica de <strong className="text-white">6 ml</strong> a precio especial de <strong className="text-emerald-400">$199 MXN</strong> <span className="text-xs text-gray-400 line-through decoration-red-400/80 font-normal">(Antes $249 MXN)</span>.
           </p>
         </div>
 
@@ -139,7 +139,7 @@ export const ProductCatalog = forwardRef<HTMLDivElement, ProductCatalogProps>(
 
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-[#131b15] border border-[#d4af37]/40 text-[#fceda7] font-semibold">
               <Check className="w-3 h-3 text-[#d4af37]" />
-              <span>Precio: <strong className="text-white">$199 MXN c/u</strong></span>
+              <span>Precio: <strong className="text-white">$199 MXN c/u</strong> <span className="text-[11px] text-gray-400 line-through decoration-red-400/80 font-normal ml-1">Antes $249</span></span>
             </div>
 
             <a

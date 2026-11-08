@@ -109,10 +109,15 @@ export const Hero: React.FC<HeroProps> = ({ onExploreCatalog }) => {
                     </span>
                   </div>
                   <div className="text-right">
-                    <span className="text-[10px] text-gray-300 block">Precio único</span>
-                    <span className="font-display font-extrabold text-[#f5e7b8] text-sm sm:text-base">
-                      $199 MXN
-                    </span>
+                    <span className="text-[10px] text-gray-300 block">Precio especial</span>
+                    <div className="flex items-baseline justify-end gap-1.5">
+                      <span className="font-display font-extrabold text-[#f5e7b8] text-sm sm:text-base">
+                        $199 MXN
+                      </span>
+                      <span className="text-[11px] text-gray-400 line-through decoration-red-400/80 font-medium" title="Precio anterior: $249 MXN">
+                        $249
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
