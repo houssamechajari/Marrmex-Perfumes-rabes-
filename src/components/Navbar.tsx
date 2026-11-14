@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShoppingBag, Search, Menu, X, Sparkles, Phone, Facebook } from 'lucide-react';
+import { ShoppingBag, Search, Menu, X, Sparkles, Phone, Facebook, Instagram } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { BUSINESS_CONFIG } from '../data/products';
 import logoImg from '../assets/images/marrmex_official_logo_1789927674144.jpg';
@@ -135,6 +135,19 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
               <span>Facebook</span>
             </a>
 
+            {/* Direct Instagram Link */}
+            <a
+              id="navbar-instagram-direct"
+              href={BUSINESS_CONFIG.instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-full border border-pink-500/40 bg-gradient-to-r from-[#833ab4]/20 via-[#fd1d1d]/20 to-[#fcb045]/20 text-pink-200 hover:from-[#833ab4]/40 hover:via-[#fd1d1d]/40 hover:to-[#fcb045]/40 hover:text-white transition-all shadow-sm"
+              title="Síguenos en Instagram"
+            >
+              <Instagram className="w-3.5 h-3.5 text-pink-400" />
+              <span>Instagram</span>
+            </a>
+
             {/* Cart Button */}
             <button
               id="navbar-cart-btn"
@@ -231,6 +244,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenSearch }) => {
               >
                 <Facebook className="w-4 h-4 text-[#60a5fa] fill-current" />
                 <span>Facebook</span>
+              </a>
+
+              <a
+                href={BUSINESS_CONFIG.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-2.5 px-4 bg-gradient-to-r from-[#833ab4]/20 via-[#fd1d1d]/20 to-[#fcb045]/20 hover:from-[#833ab4]/35 hover:via-[#fd1d1d]/35 hover:to-[#fcb045]/35 border border-pink-500/40 text-pink-200 font-bold text-xs rounded-lg flex items-center justify-center gap-2 transition-all shadow-sm"
+              >
+                <Instagram className="w-4 h-4 text-pink-400" />
+                <span>Instagram</span>
               </a>
 
               <p className="text-[11px] text-center text-gray-400">

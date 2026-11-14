@@ -492,6 +492,7 @@ export const BUSINESS_CONFIG = {
   email: 'contacto@marrmexperfumes.mx',
   address: 'Centro, Huajuapan de León, Oaxaca, México',
   facebookUrl: 'https://www.facebook.com/share/1Fb4fnU4BE/',
+  instagramUrl: 'https://www.instagram.com/perfumesarabesmarrmex?mdxt=N3Y4c2t1bWI2cHYw',
   freeShippingThreshold: 1500,
   singlePrice: 199,
   singleOriginalPrice: 249

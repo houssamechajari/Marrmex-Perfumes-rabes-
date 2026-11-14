@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageSquare, MapPin, Phone, Mail, ShieldCheck, Heart, Sparkles, X, Facebook } from 'lucide-react';
+import { MessageSquare, MapPin, Phone, Mail, ShieldCheck, Heart, Sparkles, X, Facebook, Instagram } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../data/products';
 import logoImg from '../assets/images/marrmex_official_logo_1789927674144.jpg';
 
@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
                 Perfumes Árabes Originales En Oaxaca México, Perfumes Árabes En Huajuapan De León.
               </p>
 
-              <div className="pt-2 flex flex-col sm:flex-row gap-2.5">
+              <div className="pt-2 flex flex-wrap gap-2.5">
                 <a
                   id="footer-whatsapp-btn"
                   href={`https://wa.me/${BUSINESS_CONFIG.phone}?text=${encodeURIComponent('Hola MARRMEX Perfumes Árabes, deseo consultar sobre sus perfumes Árabes .')}`}
@@ -63,6 +63,18 @@ export const Footer: React.FC = () => {
                 >
                   <Facebook className="w-4 h-4 fill-current text-[#1877F2]" />
                   <span>Facebook</span>
+                </a>
+
+                <a
+                  id="footer-instagram-btn"
+                  href={BUSINESS_CONFIG.instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-gradient-to-r from-[#833ab4]/20 via-[#fd1d1d]/20 to-[#fcb045]/20 hover:from-[#833ab4]/40 hover:via-[#fd1d1d]/40 hover:to-[#fcb045]/40 border border-pink-500/40 text-pink-200 hover:text-white font-bold text-xs transition-all shadow-sm"
+                  title="Síguenos en Instagram"
+                >
+                  <Instagram className="w-4 h-4 text-pink-400" />
+                  <span>Instagram</span>
                 </a>
               </div>
             </div>
@@ -183,6 +195,18 @@ export const Footer: React.FC = () => {
               >
                 <Facebook className="w-3.5 h-3.5 text-[#1877F2] fill-current" />
                 <span className="text-xs font-semibold">Facebook</span>
+              </a>
+
+              <a
+                id="footer-bottom-instagram"
+                href={BUSINESS_CONFIG.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gradient-to-r from-[#833ab4]/15 via-[#fd1d1d]/15 to-[#fcb045]/15 hover:from-[#833ab4]/30 hover:via-[#fd1d1d]/30 hover:to-[#fcb045]/30 border border-pink-500/40 text-pink-200 hover:text-white transition-all"
+                title="Síguenos en Instagram"
+              >
+                <Instagram className="w-3.5 h-3.5 text-pink-400" />
+                <span className="text-xs font-semibold">Instagram</span>
               </a>
             </div>
           </div>

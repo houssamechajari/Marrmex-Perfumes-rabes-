@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, ShieldCheck, MapPin, Sparkles, Droplets, Facebook } from 'lucide-react';
+import { Phone, ShieldCheck, MapPin, Sparkles, Droplets, Facebook, Instagram } from 'lucide-react';
 import { BUSINESS_CONFIG } from '../data/products';
 import logoImg from '../assets/images/marrmex_official_logo_1789927674144.jpg';
 
@@ -98,6 +98,17 @@ export const AboutSection: React.FC = () => {
               >
                 <Facebook className="w-4 h-4 text-[#60a5fa] fill-current" />
                 <span>Facebook</span>
+              </a>
+
+              <a
+                id="about-instagram-btn"
+                href={BUSINESS_CONFIG.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-gradient-to-r from-[#833ab4]/20 via-[#fd1d1d]/20 to-[#fcb045]/20 hover:from-[#833ab4]/35 hover:via-[#fd1d1d]/35 hover:to-[#fcb045]/35 border border-pink-500/40 text-pink-200 hover:text-white text-sm font-bold transition-all flex items-center justify-center gap-2 text-center shadow-md"
+              >
+                <Instagram className="w-4 h-4 text-pink-400" />
+                <span>Instagram</span>
               </a>
 
               <a
