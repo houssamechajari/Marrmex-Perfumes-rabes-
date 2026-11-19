@@ -51,7 +51,7 @@ export const RegionalSections: React.FC = () => {
               className="w-full py-2.5 px-4 rounded-xl bg-[#064e3b]/40 hover:bg-[#064e3b]/70 border border-emerald-500/40 text-emerald-300 font-bold text-xs flex items-center justify-center gap-2 transition-colors"
             >
               <MessageSquare className="w-4 h-4 fill-current text-emerald-400" />
-              <span>WhatsApp {BUSINESS_CONFIG.displayPhone}</span>
+              <span>Via WhatsApp</span>
             </a>
           </section>
 
@@ -98,7 +98,7 @@ export const RegionalSections: React.FC = () => {
               className="w-full py-2.5 px-4 rounded-xl bg-[#064e3b]/40 hover:bg-[#064e3b]/70 border border-emerald-500/40 text-emerald-300 font-bold text-xs flex items-center justify-center gap-2 transition-colors"
             >
               <MessageSquare className="w-4 h-4 fill-current text-emerald-400" />
-              <span>WhatsApp {BUSINESS_CONFIG.displayPhone}</span>
+              <span>Via WhatsApp</span>
             </a>
           </section>
 
@@ -141,7 +141,7 @@ export const RegionalSections: React.FC = () => {
               className="w-full py-2.5 px-4 rounded-xl bg-[#064e3b]/40 hover:bg-[#064e3b]/70 border border-emerald-500/40 text-emerald-300 font-bold text-xs flex items-center justify-center gap-2 transition-colors"
             >
               <MessageSquare className="w-4 h-4 fill-current text-emerald-400" />
-              <span>WhatsApp {BUSINESS_CONFIG.displayPhone}</span>
+              <span>Via WhatsApp</span>
             </a>
           </section>
         </div>
