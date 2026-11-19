@@ -7,6 +7,7 @@ import { ArabicPackSection } from './components/ArabicPackSection';
 import { ProductCatalog } from './components/ProductCatalog';
 import { ArabianHeritageSection } from './components/ArabianHeritageSection';
 import { ShippingSection } from './components/ShippingSection';
+import { RegionalSections } from './components/RegionalSections';
 import { PaymentGuide } from './components/PaymentGuide';
 import { AboutSection } from './components/AboutSection';
 import { Footer } from './components/Footer';
@@ -67,6 +68,9 @@ const MainApp: React.FC = () => {
 
         {/* Envíos a todo México */}
         <ShippingSection />
+
+        {/* Secciones breves: Oaxaca, Huajuapan de León y Puebla */}
+        <RegionalSections />
 
         {/* Cómo pago mi pedido */}
         <PaymentGuide />

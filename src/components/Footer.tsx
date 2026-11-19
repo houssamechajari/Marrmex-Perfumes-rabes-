@@ -172,7 +172,7 @@ export const Footer: React.FC = () => {
           <div className="pt-8 mt-8 border-t border-emerald-950/80 text-xs text-gray-400">
             <div className="bg-[#07130b]/60 border border-emerald-900/30 rounded-xl p-4 sm:p-5">
               <p className="leading-relaxed text-[11px] text-gray-400">
-                <strong className="text-[#d4af37]">MARRMEX Perfumes Árabes:</strong> Perfumes Árabes Originales En Oaxaca México • Perfumes Árabes En Huajuapan De León • Perfumería árabe original en México • Comprar perfumes árabes online en México • Envíos a todo México • Perfumes árabes en Oaxaca • Perfumes árabes en Puebla • Perfumes árabes en Huajuapan de León • Perfumes árabes de larga duración • Perfumes árabes para mujer en México • Perfumes árabes para hombre en México • Al Rehab perfumes originales en México • Aceites de perfume concentrados y attars • Tienda de perfumes árabes en México.
+                <strong className="text-[#d4af37]">MARRMEX Perfumes Árabes:</strong> Perfumes árabes Al Rehab 100% originales en roll-on de 6 ml de larga duración. Envíos seguros desde Huajuapan de León, Oaxaca, a todo México con embalaje protegido, guía de rastreo y envío gratis a partir de $1,500 MXN.
               </p>
             </div>
           </div>
@@ -181,7 +181,7 @@ export const Footer: React.FC = () => {
           <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left text-xs text-gray-400">
             <div>
               <p>
-                © {new Date().getFullYear()} <strong className="text-white">MARRMEX Perfumes Árabes</strong>. Todos los derechos reservados. Perfumes árabes originales en México.
+                © {new Date().getFullYear()} <strong className="text-white">MARRMEX Perfumes Árabes en México</strong>. Todos los derechos reservados.
               </p>
             </div>
             <div className="flex items-center gap-3 flex-shrink-0">
